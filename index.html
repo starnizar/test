@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trucks</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="app">
+        <header><h1>Header / Logo</h1></header>
+        <nav></nav>
+        <div class="breadcrumbs"></div>
+        <div class="resultTitle"></div>
+        <main>
+            <form>
+                <h3>26 results found</h3>
+                <div>
+                    <h4>Param 1</h4>
+                    <p><input name="param1" type="checkbox"> value 1</p>
+                    <p><input name="param2" type="checkbox"> value 2</p>
+                    <p><input name="param3" type="checkbox"> value 3</p>
+                    <p><input name="param4" type="checkbox"> value 4</p>
+                    <p><input name="param5" type="checkbox"> value 5</p>
+                </div>
+                <div>
+                    <h4>Param 2</h4>
+                    <p><input checked name="radio" type="radio"> value 2_1</p>
+                    <p><input name="radio" type="radio"> value 2_2</p>
+                    <p><input name="radio" type="radio"> value 2_3</p>
+                </div>
+                <div>
+                    <h4>Param 3</h4>
+                    <input class="minmax" placeholder="min" type="text"> <input class="minmax" placeholder="max" type="text">    
+                </div>
+                <div class="keyword">
+                    <h4>Keyword</h4>
+                    <input placeholder="keyword" type="text" name="" id=""> <br>
+                    <button type="submit">SEARCH</button> 
+                </div>
+            </form>
+            <div class="result">
+                <div class="itemsContainer">
+                    <div class="selectorBox">
+                        <div class="pageSelector">
+                            <button><</button>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>></button>
+                        </div>
+                        <div class="sortBox">
+                            <label for="">Sort by</label>
+                            <select name="Sort options" id="sortOptions">
+                                <option selected disabled value="">Sort options</option>
+                                <option value="Option 1">Option 1</option>
+                                <option value="Option 2">Option 2</option>
+                                <option value="Option 3">Option 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="items">
+                    </div>
+                    <div class="selectorBox">
+                        <div class="pageSelector">
+                            <button><</button>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pageText"></div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <h1>Logo / Company Name</h1>
+                <div class="footerText">
+                    <div class="contacts">
+                        <p><img src="./src/images/pin.png" alt="#">
+                            Company Adress: Lorem ipsum dolor sit amet 18600, Netherlands
+                        </p>
+                        <p>
+                            <img src="./src/images/phone.png" alt="#">
+                            +38 958 755-00-00
+                        </p>
+                        <p>
+                            <img src="./src/images/social_icon__facebook.png" alt="#">
+                            <img src="./src/images/social_icon__twitter.png" alt="#">
+                            <img src="./src/images/social_icon__instagram.png" alt="#">
+                            <img src="./src/images/social_icon__youtube.png" alt="#">
+                        </p>
+                    </div>
+                    <div class="someText">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempora dolores quos non omnis consequuntur expedita eum nostrum quaerat sit incidunt esse laboriosam, doloremque nobis ea reiciendis excepturi iusto quia?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="privacy">
+                <p>© 2019 - <a>Privacy Policy - Terms and Conditions</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
